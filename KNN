@@ -10,7 +10,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn import metrics
 
 
-data = pd.read_csv("E:\Sadia\Datasets\Dataset_Female.csv")
+data = pd.read_csv("File_Location/File_Name.csv")
 
 
 X = data.drop('Token', axis=1)  
